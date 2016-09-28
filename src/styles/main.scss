@@ -1,0 +1,14 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+// Fonts Variables
+$quicksand-slab: 'Quicksand', sans-serif;
+
+
+html,body{
+  margin: 0px;
+  color: #656463;
+  font-family: $quicksand-slab !important;
+  font-weight: normal !important;
+  height: 100%;
+}

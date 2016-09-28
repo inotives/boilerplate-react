@@ -1,0 +1,20 @@
+{
+  "name": "boilerplate-react",
+  "description": "this is a boilerplate project for simple and basic react application for beginner. a good starting point if you want to learn react. bundle with material ui and webpack bundle.",
+  "main": "index.js",
+  "authors": [
+    "Toni <keitaro1232000@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "react"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "materialize": "^0.97.7",
+    "animate.css": "^3.5.2",
+    "font-awesome": "^4.6.3"
+  }
+}

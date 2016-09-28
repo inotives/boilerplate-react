@@ -1,0 +1,28 @@
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# npm
+node_modules
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#bower components
+bower_components
+
+# additional ignore folder
+ignore
+.migrate
+dist
