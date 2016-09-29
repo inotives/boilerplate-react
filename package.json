@@ -4,7 +4,7 @@
   "description": "this is a boilerplate project for simple and basic react application for beginner. a good starting point if you want to learn react. bundle with material ui and webpack bundle. ",
   "main": "index.js",
   "scripts": {
-    "setup": "npm install && bower install",
+    "setup": "npm install && node_modules/.bin/bower install",
     "build": "node_modules/.bin/webpack --display-error-details",
     "serve": "node_modules/.bin/gulp serve",
     "dev": "node_modules/.bin/webpack --watch"
@@ -20,12 +20,15 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
     "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
     "express": "^4.14.0",
     "express-sanitize-escape": "^0.6.3",
     "lodash": "^4.16.2",
     "morgan": "^1.7.0",
+    "qs": "^6.2.1",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "request": "^2.75.0"
   },
   "devDependencies": {
     "bower": "^1.7.9",
@@ -41,6 +44,7 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1",
     "webpack-merge": "^0.14.1",
     "webpack-stream": "^3.2.0"
   }
