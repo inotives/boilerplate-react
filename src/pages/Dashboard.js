@@ -19,7 +19,7 @@ class Dashboard extends Component {
     return (
       <div>
         <div className="">
-          <h3 className="center">ITBIT EXCHANGE PRICEss DASHBOARD</h3>
+          <h3 className="center">ITBIT EXCHANGE PRICE DASHBOARD</h3>
           <hr style={hrStyling}/>
 
           <div className="row">

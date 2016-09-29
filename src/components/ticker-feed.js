@@ -15,6 +15,7 @@ class TickerFeed extends Component {
     }
   }
 
+  // fetch data by accessing rest API
   fetchData(){
     let curThis = this;
     const prodEndpoint = "https://api.itbit.com/v1"
@@ -27,6 +28,7 @@ class TickerFeed extends Component {
       })
   }
 
+  // custom function for processing auto refresh button when it is clicked
   processAutoRefresh(){
     self = this;
     if(this.state.autoRefresh) {
@@ -39,10 +41,12 @@ class TickerFeed extends Component {
     }
   }
 
+  // react life cycle event. run these code block when the component is mounted
   componentDidMount(){
     this.fetchData() // fetch data once the component is mounted
   }
 
+  // rendering element
   renderTickerCollectionList(title, value, additionalSymbol){
     return(
       <li className="collection-item">
@@ -52,6 +56,7 @@ class TickerFeed extends Component {
     )
   }
 
+  // rendering element
   renderTicker(title, ticker){
     const currPrice = (parseInt(ticker.ask) + parseInt(ticker.bid) ) / 2;
     const topBid = ticker.bidAmt + ' @ $' + ticker.bid;
@@ -76,6 +81,7 @@ class TickerFeed extends Component {
     )
   }
 
+  // main render function
   render(){
     let tickerElement = <Loader />
     let title = "TICKER"
